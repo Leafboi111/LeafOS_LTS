@@ -54,7 +54,6 @@ function selectfile {
 
 function readfile {
 
-  filename="test.txt"
   x=0
 
   while read -r line || [[ -n "$line" ]]; do
