@@ -93,4 +93,4 @@ selectfile
 readfile
 tput setaf 39
 editfile
-printf "%s\n" "${filearr[@]}" > $filename
+printf "%s\n" "${filearr[@]}" > filename
