@@ -102,4 +102,4 @@ selectfile
 readfile
 tput setaf 39
 editfile
-echo ${filearr[@]} > $filename
+for value in "${filearr[@]}"; do echo "$value" >> $filename; done
