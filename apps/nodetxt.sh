@@ -106,6 +106,6 @@ editfile
 x=0
 
 while read -r line || [[ -n "$line" ]]; do
-  echo filearr[$x] >> $filename
+  echo $filearr[$x] >> $filename
   let x++
 done <$filename
