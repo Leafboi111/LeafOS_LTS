@@ -102,4 +102,4 @@ selectfile
 readfile
 tput setaf 39
 editfile
-echo $filearr[@] > $filename
+echo ${filearr[@]} > $filename
