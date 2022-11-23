@@ -102,10 +102,4 @@ selectfile
 readfile
 tput setaf 39
 editfile
-
-x=0
-
-while read -r line || [[ -n "$line" ]]; do
-  echo $filearr[$x] >> $filename
-  let x++
-done <$filename
+echo $filearr[*] > $filename
